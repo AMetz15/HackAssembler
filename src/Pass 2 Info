@@ -1,0 +1,20 @@
+        //parser.rewind();
+
+        //pass 2,
+        int ramIndex = 16;
+        while (parser.hasMoreCommands()) {
+            //if A_COMMAND
+            if (parser.commandType() == parser.A_COMMAND) {
+                //add symbol to symbol table if not already there
+                if (st.contains(parser.symbol())) {
+                    //add parser.symbol
+                    ramIndex++;
+                }
+                //print out A_COMMAND, convert integer to binary
+                //System.out.println("0" + String.format("%15s", Integer.toBinaryString(st.getAddress(parser.symbol()))).replace(" ", 0);
+            }
+            //if C_COMMAND
+            if (parser.commandType() == parser.C_COMMAND) {
+                //print out C_COMMAND
+           }
+        }

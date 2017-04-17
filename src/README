@@ -1,0 +1,5 @@
+1) To change the file to run, change the String filePath variable to "(whatever).asm". The default is UberB.asm
+
+2) To see the Symbol Table, uncomment the st.dumpTable function in the Assembler class
+
+3) To see if the commands are being properly parsed, uncomment the parser.dumpCommands function
